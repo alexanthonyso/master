@@ -191,6 +191,7 @@ body {
 }
 
 #contact {
+	display: flex;
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;

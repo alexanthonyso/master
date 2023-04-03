@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Photographe professionnelle à Bordeaux | Nina Carducci</title>
 	<meta name="description" content="Photographe professionnel et évènementiel en région Bordelaise, je réalise vos portraits, photos d'entreprise, de mariage et séances de shooting. Retouche photos et réalisation de books et albums photos. Déplacement à la demi-journée ">
 
@@ -22,22 +24,22 @@
     <meta name="twitter:creator" content="@NinaCarducci">
 	<!-- ------------------------------------------ -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
+
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -45,8 +47,9 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 		</ul>
-	</div>
-</div>
+	</nav>
+</header>
+<main>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -79,7 +82,7 @@
 		</button>
 	</div>
 </div>
-<div id="about">
+<section id="about">
 	<div class="picture left">
 		<img  id="nina" src="./assets/images/nina.webp" width="410" height="409" alt="Portrait de Nina Carducci, photographe professionnelle à Bordeaux">
 	</div>
@@ -89,8 +92,8 @@
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
-<div id="gallery">
+</section>
+<section id="gallery">
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
@@ -113,11 +116,11 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
-<div id="services">
+</section>
+<section id="services">
 	<h3 class="title">Mes services</h3>
 	<div class="container">
-		<div class="service">
+		<article class="service">
 			<div class="service__description">
 				<h3>Shooting photo</h3>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -127,18 +130,18 @@
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
-		</div>
-		<div class="service">
+		</article>
+		<article class="service">
 			<div class="service__description">
 				<h3>Retouches</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
 				<h4>50€/photo</h4>
-				<span>2 AR par photo</span>
+				<span>2 ajustements/retouches par photo</span>
 			</div>
-		</div>
-		<div class="service">
+		</article>
+		<article class="service">
 			<div class="service__description">
 				<h3>Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
@@ -147,9 +150,9 @@
 				<h4>400€ album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
-		</div>
+		</article>
 	</div>
-</div>
+</section>
 <div class="quote">
 	<figure>
 		<blockquote>
@@ -158,21 +161,8 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
-
-	<!-- Schema.org -->
-	<div itemscope itemtype="http://schema.org/LocalBusiness">
-		<h1 itemprop="name">Nina Carducci</h1>
-		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-		  <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
-		  <span itemprop="postalCode">33200</span>
-		  <span itemprop="addressLocality">Bordeaux</span>
-		</div>
-		<div itemprop="telephone">05 56 67 78 89</div>
-		<div itemprop="openingHours" content="Mo-Fr 10:00-19:00">Lundi - Vendredi : 10h00 - 19h00</div>
-	  </div>
-	<!-- ---------------------- -->
-
+</main>
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -191,6 +181,18 @@
 			<img id="camera" src="./assets/images/camera.webp" width ="450" height="450" alt="photo d'un appareil photo">
 		</div>
 	</div>
-</div>
+		<!-- Schema.org -->
+		<div itemscope itemtype="http://schema.org/LocalBusiness">
+			<h1 itemprop="name">Nina Carducci</h1>
+			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			  <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
+			  <span itemprop="postalCode">33200</span>
+			  <span itemprop="addressLocality">Bordeaux</span>
+			</div>
+			<div itemprop="telephone">05 56 67 78 89</div>
+			<div itemprop="openingHours" content="Mo-Fr 10:00-19:00">Lundi - Vendredi : 10h00 - 19h00</div>
+		  </div>
+		<!-- ---------------------- -->
+	</footer>
 </body>
 </html>

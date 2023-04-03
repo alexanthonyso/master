@@ -252,6 +252,10 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+#camera{
+	width:350px;
+	height:350px;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -326,6 +330,10 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+	#camera{
+		width:250px;
+		height:250px;
 	}
 }
 

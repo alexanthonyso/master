@@ -40,8 +40,13 @@ body {
 
 .social-link img {
 	width: 20px;
+	height:20px;
 }
 
+.w-100{
+	width: 100%;
+	height:auto;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -90,12 +95,15 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
+}
+
+#nina{
+	width:100%;
+	max-width:550px;
+	height:auto;
 }
 .gallery .nav {
 	justify-content: center;
@@ -259,6 +267,7 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	
 }
 
 @media all and (max-width: 1000px) {

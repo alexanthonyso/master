@@ -199,7 +199,7 @@ body {
 }
 
 #contact {
-	display: flex;
+	
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
@@ -255,6 +255,15 @@ input[type="submit"] {
 #camera{
 	width:350px;
 	height:350px;
+}
+
+#form-title {		
+	font-size: calc(1.3rem + 0.6vw);		
+	display: block;		
+	margin-bottom:0.5rem;		
+	margin-block-start: 1em;		
+	margin-inline-start: 0px;		
+	margin-inline-end: 0px;		
 }
 
 @media all and (max-width: 1180px) {
